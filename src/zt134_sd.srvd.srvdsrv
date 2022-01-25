@@ -1,0 +1,4 @@
+@EndUserText.label: 'Material type Service Definition'
+define service ZT134_SD {
+  expose Zc_Mtart as MatType;
+}
