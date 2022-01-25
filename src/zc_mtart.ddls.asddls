@@ -1,5 +1,6 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Material type View'
+@ObjectModel.resultSet.sizeCategory: #XS
 
 @UI: {
  headerInfo: { typeName: 'Material type', typeNamePlural: 'Material types', title: { type: #STANDARD, value: 'mtart' } } }
