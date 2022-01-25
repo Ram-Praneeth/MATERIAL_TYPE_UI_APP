@@ -11,17 +11,17 @@ define root view entity Zc_Mtart
 {
 
       @UI.facet: [ {      id:            'MType',
+                          importance: #HIGH,
                          purpose:         #STANDARD,
                          type:            #IDENTIFICATION_REFERENCE,
                          label:           'Material type',
                          position:        10 } ]
 
-      
-        @UI: {
-            lineItem:       [ { position: 10, importance: #HIGH, label: 'Material type' } ],
-            identification: [ { position: 10, label: 'Material type' } ] }    
-                  @Search.defaultSearchElement: true
-      
+
+      @UI: {
+          lineItem:       [ { position: 10, importance: #HIGH, label: 'Material type' } ],
+          identification: [ { position: 10, label: 'Material type' } ] }
+      @Search.defaultSearchElement: true
   key mtart,
 
       @UI: {
