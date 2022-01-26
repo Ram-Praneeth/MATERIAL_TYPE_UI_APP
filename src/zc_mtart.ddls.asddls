@@ -1,6 +1,6 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Material type View'
-@ObjectModel.resultSet.sizeCategory: #XS
+//@ObjectModel.resultSet.sizeCategory: #XS   //Enables dropdown feature for field when @Consumption.valueHelpDefinition is used
 
 @UI: {
  headerInfo: { typeName: 'Material type', typeNamePlural: 'Material types', title: { type: #STANDARD, value: 'mtart' } } }
